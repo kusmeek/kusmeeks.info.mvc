@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <title>kusmeeks info</title>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" type="text/css" href="./css/site.css">        
+
+    </head>
+
+    <body>
+
+        <div>
+
+            <div class="wsb-canvas body">
+
+                <div class="wsb-canvas-page-container">
+
+                    <div class="wsb-canvas-page page" id="wsb-canvas-template-page">
+
+                        <div class="" id="wsb-canvas-template-container">
+
+                            <div class="wsb-element-navigation" id="wsb-element-67510526">
+
+                                <div class="wsb-nav nav_theme nav-text-center nav-horizontal nav-btn-stretch wsb-navigation-rendered-top-level-container" id="wsb-nav-67510526">
+
+                                    <ul class="wsb-navigation-rendered-top-level-menu">
+
+                                        <li>
+                                            <a asp-controller="Info" asp-action="Corpus">Corpus</a>
+                                        </li>
+
+                                        <li>
+                                            <a asp-controller="Info" asp-action="Animus">Animus</a>
+                                        </li>
+
+                                        <li>
+                                            <a asp-controller="Info" asp-action="Notes">Notes</a>
+                                        </li>
+
+                                        <li>
+                                            <a asp-controller="Info" asp-action="Watch">Watch</a>
+                                        </li>
+
+                                        <li>
+                                            <a asp-controller="Info" asp-action="Give">Give</a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div id="wsb-element-60822041" class="wsb-element-text">
+
+                                <div class="info txt">
+
+                                    <h1>
+                                        <a href="http://en.wikipedia.org/wiki/Unsolved_problems"><span style="color:#3f007f;">?</span></a>
+                                    </h1>
+
+                                </div>
+
+                            </div>
+
+                            <main role="main">
+                                @RenderBody()
+                            </main>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="./script/links.js"></script>
+
+    </body>
+
+</html>

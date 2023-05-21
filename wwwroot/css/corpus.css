@@ -1,0 +1,43 @@
+﻿#wsb-element-61284894
+{
+    top: 143px;
+    left: 8px;
+    position: absolute;
+    z-index: 20
+}
+
+#wsb-element-61284894 .txt
+{
+    width: 1003px;
+    height: 104px
+}
+
+#wsb-element-67557013
+{
+    top: 198px;
+    left: 201px;
+    position: absolute;
+    z-index: 22
+}
+
+#wsb-element-67557013 .wsb-image-inner
+{
+}
+
+#wsb-element-67557013 .wsb-image-inner div
+{
+    width: 717px;
+    height: 428px;
+    position: relative;
+    overflow: hidden
+}
+
+#wsb-element-67557013 img
+{
+    position: absolute
+}
+
+#wsb-canvas-template-page
+{
+    height: 770px
+}

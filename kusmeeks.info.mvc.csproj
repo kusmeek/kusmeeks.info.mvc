@@ -1,0 +1,60 @@
+﻿<Project Sdk = "Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup Label = "Main">
+
+        <TargetFramework>net8.0</TargetFramework>
+
+    </PropertyGroup>
+
+    <PropertyGroup Label = "Analysis">
+
+        <EnableTrimAnalyzer>False</EnableTrimAnalyzer>
+
+    </PropertyGroup>
+
+    <ItemGroup Label = "Code">
+
+        <Compile Include = "Controllers\InfoController.cs" />
+
+        <Compile Include = "Server.cs" />
+
+        <Compile Include = "Usings.cs" />
+
+    </ItemGroup>
+
+    <PropertyGroup Label = "ConfigEx">
+
+        <GenerateDocumentationFile>False</GenerateDocumentationFile>
+
+        <EnableDefaultItems>True</EnableDefaultItems>
+
+    </PropertyGroup>
+
+    <ItemGroup Label = "Content">
+
+      <Content Update = "Views\Info\Animus.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+
+      <Content Update = "Views\Info\Corpus.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+
+      <Content Update = "Views\Info\Give.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+
+      <Content Update = "Views\Info\Notes.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+
+      <Content Update = "Views\Info\Watch.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+
+      <Content Update = "wwwroot\css\site.css">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
