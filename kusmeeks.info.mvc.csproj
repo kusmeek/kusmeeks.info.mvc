@@ -16,6 +16,8 @@
 
         <Compile Include = "Controllers\InfoController.cs" />
 
+        <TypeScriptCompile Include = "wwwroot\script\links.ts" />
+
         <Compile Include = "Server.cs" />
 
         <Compile Include = "Usings.cs" />
@@ -24,9 +26,11 @@
 
     <PropertyGroup Label = "ConfigEx">
 
-        <GenerateDocumentationFile>False</GenerateDocumentationFile>
-
         <EnableDefaultItems>True</EnableDefaultItems>
+
+        <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+
+        <GenerateDocumentationFile>False</GenerateDocumentationFile>
 
     </PropertyGroup>
 
@@ -55,6 +59,13 @@
       <Content Update = "wwwroot\css\site.css">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+
+    </ItemGroup>
+
+    <ItemGroup Label="Packages or Projects">
+
+      <PackageReference Include = "Microsoft.AspNetCore.Components" Version = "8.0.0-preview.4.23260.4" />
+
     </ItemGroup>
 
 </Project>
