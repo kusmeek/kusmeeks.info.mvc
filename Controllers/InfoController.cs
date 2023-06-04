@@ -5,11 +5,11 @@
         public InfoController() { }
 
         [Route("/")]
-        [Route("/Corpus")]
-        public IActionResult Corpus() { return this.View(); }
-
         [Route("/Animus")]
         public IActionResult Animus() { return this.View(); }
+
+        [Route("/Corpus")]
+        public IActionResult Corpus() { return this.View(); }
 
         [Route("/Notes")]
         public IActionResult Notes()  { return this.View(); }

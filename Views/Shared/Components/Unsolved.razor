@@ -3,9 +3,14 @@
     <div class="info txt">
 
         <h1>
-            <a href="http://en.wikipedia.org/wiki/Unsolved_problems"><span style="color:#3f007f;">?</span></a>
+            <a href="http://en.wikipedia.org/wiki/Unsolved_problems"><span style="@_">?</span></a>
         </h1>
 
     </div>
 
 </div>
+
+@code
+{
+    String _ = "color:#" + new Random().Next(0xFFFFFF).ToString("X6");
+}
